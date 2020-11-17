@@ -34,10 +34,14 @@ hi Special cterm=None ctermfg=None ctermbg=None
 
 hi ColorColumn ctermbg=254
 hi SpecialKey ctermfg=253
-hi LineNr ctermbg=254 ctermfg=244
+hi LineNr ctermbg=None ctermfg=247
 hi! link StatusLine LineNr
 hi! link StatusLineNC LineNr
 hi Visual ctermbg=254
-hi CursorLine cterm=underline
-hi CursorLineNr cterm=None ctermbg=254 ctermfg=yellow
+hi CursorLine cterm=bold ctermfg=None
+hi CursorLineNr cterm=bold ctermfg=None
 hi Search cterm=underline ctermbg=254
+
+hi DiffAdd ctermfg=green ctermbg=None
+hi DiffDelete ctermfg=red ctermbg=None
+hi DiffChange ctermfg=darkgrey ctermbg=None
