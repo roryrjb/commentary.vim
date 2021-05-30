@@ -1,7 +1,7 @@
 " Maintainer: Rory Bradford <rory@dysfunctionalprogramming.com>
-" Last Change: 2020 Nov 2
+" Last Change: 2021 May 30
 
-set background=light
+set background=dark
 
 hi clear
 syntax clear
@@ -27,17 +27,17 @@ hi MatchParen cterm=bold ctermbg=250 ctermfg=None
 hi Constant cterm=None ctermfg=None ctermbg=None
 hi Number cterm=None ctermfg=None ctermbg=None
 hi Identifier cterm=None ctermfg=None ctermbg=None
-hi Statement cterm=None ctermfg=None ctermbg=None
+hi Statement cterm=None ctermfg=yellow ctermbg=None
 hi PreProc cterm=None ctermfg=None ctermbg=None
 hi Type cterm=None ctermfg=None ctermbg=None
 hi Special cterm=None ctermfg=None ctermbg=None
 
-hi ColorColumn ctermbg=254
+hi ColorColumn ctermbg=235
 hi SpecialKey ctermfg=253
 hi LineNr ctermbg=None ctermfg=247
 hi! link StatusLine LineNr
 hi! link StatusLineNC LineNr
-hi Visual ctermbg=254
+hi Visual ctermbg=238
 hi CursorLine cterm=bold ctermfg=None
 hi CursorLineNr cterm=bold ctermfg=None
 hi Search cterm=underline ctermbg=254
